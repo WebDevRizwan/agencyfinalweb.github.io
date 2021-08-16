@@ -1,0 +1,371 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.master{
+    max-width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+.nav {
+    width: 100%;
+    /* border: 1px solid teal; */
+}
+.nav .logo {
+    float: left;
+    /* border: 1px solid red; */
+    padding: 15px 0px;
+}
+.nav .logo a {
+    text-decoration: none;
+    color: #141E61;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav .menu {
+    float: right;
+    /* border: 1px solid red; */
+}
+.nav .menu ul li {
+    float: left;
+    margin-right: 20px;
+    list-style: none;
+}
+.nav .menu ul li #down-menu {
+   margin-right: 20px;
+}
+.nav .menu i {
+    font-size: 15px;
+}
+.menu .menu-btn {
+    width: 200px;
+    height: 40px;
+    background: none;
+    border: 2px solid #0F044C;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    box-shadow: 2px 4px 5px grey;
+}
+.toggle {
+    display: none;
+}
+.menu .menu-btn span  {
+    margin-right: 10px;
+}
+
+
+
+
+/* /** hero section start here---- */
+.hero {
+    width: 100%;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+.hero img  , .hero-2  img  {
+    width: 100%;
+    box-shadow: 2px 4px 5px #0F044C;
+    /* border: 1px solid rgba(0, 0, 0, 0.623); */
+} 
+.hero .left {
+    width: 48%;
+    /* background-color: #f5f5f5; */
+    float: left;
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.hero .left h1 {
+    color: #0F044C;
+}
+.hero .right {
+    width: 48%;
+    /* border: 1px solid greenyellow; */
+    float: right;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.hero .right .box {
+    width: 48%;
+    /* background-color: orange; */
+    float: left;
+    margin-right: 1%;
+}
+.hero .right .box2 {
+    width: 48%;
+    /* background-color: tomato; */
+    float: left;
+    margin-right: 1%;
+    margin-top: 10px;
+}
+.no-margin {
+    margin-right: 0;
+    /* display: none; */
+}
+.margin-top {
+    margin-top: 50px;
+    position: relative;
+    right: -20px;
+    box-shadow: 10px 20px 3px rgba(128, 128, 128, 0.287);
+}
+.margin-top-2 {
+    position: relative;
+    left: -20px;
+}
+
+.hero .left .branding{
+    width: 100%;
+    /* border:1px solid greenyellow; */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-bottom: 0.5px solid  black;
+    padding: 10px;
+}
+.branding i {
+    font-size: 30px;
+    color: #0F044C;
+}
+.branding h4 {
+    margin-top: 3px;
+    color: #787A91;
+}
+.branding p {
+    font-size: 14px;
+    color:grey;
+    line-height: 22px;
+}
+
+ .btn {
+    width: 180px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* /hero section ends here---/  */
+.hero-2 {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.hero-2 img  {
+    width: 100%;
+} 
+
+/* hero-2 left section start here---------- */
+.hero-2 .left {
+    width: 48%;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.hero-2 .left .box {
+    width: 100%;
+    /* background-color: orange; */
+    margin-right: 2%;
+}
+.hero-2 .left .box img {
+    width: 100%;
+    border: none;
+    box-shadow: none;
+}
+
+
+/* .hero-2  right section start here------- */
+
+.hero-2 .right {
+    width: 48%;
+    background-color: #f5f5f5;
+    float: right;
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding: 50px;
+}
+.hero-2 .right p {
+    color: grey;
+    margin-bottom: 30px;
+    line-height: 22px;
+}
+.hero-2 .right img {
+    width: 15%;
+    border-radius: 50%;
+    box-shadow: none;
+    float: left;
+    margin-right: 20px;
+}
+.hero-2 .right h4 {
+     font-weight: bold;
+     margin-bottom: 0;
+}
+.hero-2 .right h6 {
+    font-weight: normal;
+    margin-top: 1px;
+    color: grey;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid grey;
+}
+.footer .f-left {
+    width: 64%;
+    /* background-color: #f5f5f5; */
+    float: left;
+}
+.footer .f-left h2 {
+    font-weight: bold;
+    line-height: 35px;
+}
+.footer .f-left p {
+    font-size: 14px;
+    color: grey;
+}
+.footer .f-right {
+    width: 30%;
+    /* background-color: limegreen; */
+    float: right;
+    padding-top: 10px;
+}
+.f-right h2 {
+    text-align: center;
+}
+.f-right .big-btn {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid red; */
+    padding: 10px 0px;
+    color: grey;
+}
+
+.copyright span i {
+    margin-right: 15px;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+.copyright p {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+
+
+/* Media query start here---- */
+@media only screen and (max-width:768px){
+    .menu ul li {
+        display: none;
+    }
+    .hero .left {
+        width: 100%;  
+    }
+    .hero .right {
+        width: 100%;
+    }
+    .hero-2 .left {
+        width: 100%;
+    }
+    .hero-2 .right {
+        width: 100%;
+    }
+    .footer .f-left {
+        width: 100%;
+    }
+    .footer .f-right {
+        width: 100%;
+    } 
+}
+@media only screen and (max-width:425px){
+
+    .menu ul li {
+        display: none;
+    }
+    .menu .menu-btn{
+        width: 130px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .menu button span {
+        font-size: 10px;
+    }
+    .hero .left {
+        width: 100%;  
+    }
+    .hero .right {
+        width: 100%;
+    }
+    .hero-2 .left {
+        width: 100%;
+    }
+    .hero-2 .right {
+        width: 100%;
+    }
+    .footer .f-left {
+        width: 100%;
+    }
+    .footer .f-right {
+        width: 100%;
+    } 
+}
+@media only screen and (max-width:375px){
+
+    .menu ul li {
+        display: none;
+    }
+    .menu .menu-btn{
+        width: 100px;
+        font-size: 12px;
+        text-align: center;
+        display: none;
+    }
+
+    .menu .toggle {
+        width: 100%;
+        padding: 15px;
+        padding-top: 5px;
+        padding-right: 0;
+        padding-left: 10px;
+        display: block;
+    }
+    .menu .toggle i {
+        font-size: 22px;
+        text-align: center;
+    }
+    .hero .left {
+        width: 100%;  
+    }
+    .hero .right {
+        width: 100%;
+    }
+    .hero-2 .left {
+        width: 100%;
+    }
+    .hero-2 .right {
+        width: 100%;
+    }
+    .footer .f-left {
+        width: 100%;
+    }
+    .footer .f-right {
+        width: 100%;
+    } 
+}
